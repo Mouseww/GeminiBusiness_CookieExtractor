@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "GeminiBusiness Cookie Extractor Script",
+  "version": "1.0.0",
+  "description": "自动在 Google Business 页面执行脚本提取Cookie中的凭证信息",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "cookies",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://*.google/*",
+    "https://*.google.com/*",
+    "https://*.googleapis.com/*",
+    "https://*.gstatic.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://business.gemini.google/home/cid*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
