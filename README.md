@@ -7,7 +7,6 @@
 
 自动提取 Gemini Business 账号信息和 Cookies 的 Chrome 浏览器插件。
 
-**项目地址**: [https://github.com/Mouseww/GeminiBusiness_CookieExtractor](https://github.com/Mouseww/GeminiBusiness_CookieExtractor)
 
 ## 功能说明
 
@@ -270,6 +269,10 @@ https://business.gemini.google/home/cid/YOUR_TEAM_ID?csesidx=YOUR_SESSION_INDEX
 MIT License
 
 ---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Mouseww/GeminiBusiness_CookieExtractor&type=Date)](https://star-history.com/#Mouseww/GeminiBusiness_CookieExtractor&Date)
 
 ## 贡献
 
